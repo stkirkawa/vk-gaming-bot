@@ -1,0 +1,177 @@
+{
+  "starting_balance": 10000,
+  "starting_city": "old_ghetto",
+  "appearances": [
+    {
+      "id": "no_mask",
+      "name": "Без маски"
+    },
+    {
+      "id": "black_mask",
+      "name": "Тёмная маска"
+    },
+    {
+      "id": "red_mask",
+      "name": "Красная маска"
+    }
+  ],
+  "homes": [
+    {
+      "id": "room",
+      "name": "Комната в общежитии",
+      "city_id": "old_ghetto",
+      "price": 1500,
+      "vehicle_slots": 1,
+      "image": "home_room_dormitory.jpg",
+      "image_credit": "Фото: Guillaume Speurt, CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:My_room_in_the_dormitory_(7950132936).jpg"
+    },
+    {
+      "id": "small_apartment",
+      "name": "Небольшая квартира",
+      "city_id": "new_ghetto",
+      "price": 12000,
+      "vehicle_slots": 2,
+      "image": "home_apartment_block.jpg",
+      "image_credit": "Фото: Matti Blume, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Apartment_block,_Zadar_(P1080730).jpg"
+    },
+    {
+      "id": "green_apartment",
+      "name": "Апартаменты в Green Ghetto",
+      "city_id": "green_ghetto",
+      "price": 60000,
+      "vehicle_slots": 3,
+      "image": "home_green_apartments.jpg",
+      "image_credit": "Фото: Wiki.cullin, CC0 — https://commons.wikimedia.org/wiki/File:Curved_modern_apartment_building_with_glass_stairwell_tower.jpg"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "mercedes_amg_g63",
+      "name": "Mercedes-AMG G 63",
+      "price": 180000,
+      "duration_seconds": 26,
+      "image": "vehicle_mercedes_amg_g63.jpg",
+      "image_credit": "Фото: Alexander Migl, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mercedes-AMG_G_63_(2018)_IMG_4370.jpg"
+    },
+    {
+      "id": "mercedes_amg_c63s",
+      "name": "Mercedes-AMG C 63 S",
+      "price": 125000,
+      "duration_seconds": 28,
+      "image": "vehicle_mercedes_amg_c63s.jpg",
+      "image_credit": "Фото: Matti Blume, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Mercedes-AMG_C_63S_Coupe,_IAA_2017,_Frankfurt_(1Y7A3011).jpg"
+    },
+    {
+      "id": "bmw_m5_competition",
+      "name": "BMW M5 Competition",
+      "price": 160000,
+      "duration_seconds": 27,
+      "image": "vehicle_bmw_m5_competition.jpg",
+      "image_credit": "Фото: Alexander Migl, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:BMW_M5_Competition_FL_IMG_3574.jpg"
+    },
+    {
+      "id": "audi_rs6_avant",
+      "name": "Audi RS 6 Avant",
+      "price": 145000,
+      "duration_seconds": 28,
+      "image": "vehicle_audi_rs6_avant.jpg",
+      "image_credit": "Фото: Charles from Port Chester, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Audi_RS_6_Avant_(2022)_(52566506314).jpg"
+    },
+    {
+      "id": "nissan_gtr_r35",
+      "name": "Nissan GT-R R35",
+      "price": 135000,
+      "duration_seconds": 25,
+      "image": "vehicle_nissan_gtr_r35.jpg",
+      "image_credit": "Фото: Yu Chu Chin, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Nissan_GT-R_R35_at_the_2026_Adelaide_Motorsport_Festival_(DSCF2567).jpg"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "corner_store",
+      "name": "Продуктовый магазин",
+      "city_id": "old_ghetto",
+      "price": 5000,
+      "income_per_period": 300,
+      "period_seconds": 3600,
+      "image": "business_grocery_store.jpg",
+      "image_credit": "Фото: Wolfmann, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:REMA_1000_Supermarket_interior_grocery_store_T%C3%B8nsberg,_Norway_2017-11-03_fruit_vegetables.jpg"
+    },
+    {
+      "id": "repair_shop",
+      "name": "Автомастерская",
+      "city_id": "new_ghetto",
+      "price": 80000,
+      "income_per_period": 900,
+      "period_seconds": 3600,
+      "image": "business_auto_workshop.jpg",
+      "image_credit": "Фото: Sodiq Jimoh, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Cars_in_a_local_mechanic_workshop_in_Nigeria.jpg"
+    },
+    {
+      "id": "cafe",
+      "name": "Городское кафе",
+      "city_id": "business_ghetto",
+      "price": 150000,
+      "income_per_period": 1600,
+      "period_seconds": 3600,
+      "image": "business_cafe.jpg",
+      "image_credit": "Фото: Kgbo, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Interior_of_Medley_Caf%C3%A9_and_Restaurant,_Kangaroo_Point,_Queensland,_01.jpg"
+    }
+  ],
+  "cities": [
+    {
+      "id": "old_ghetto",
+      "name": "Old Ghetto Street",
+      "image": "city_old_ghetto.png"
+    },
+    {
+      "id": "business_ghetto",
+      "name": "Business Ghetto Street",
+      "image": "city_business_ghetto.png"
+    },
+    {
+      "id": "new_ghetto",
+      "name": "New Ghetto Street",
+      "image": "city_new_ghetto.png"
+    },
+    {
+      "id": "green_ghetto",
+      "name": "Green Ghetto Street",
+      "image": "city_green_ghetto.png"
+    }
+  ],
+  "transports": [
+    {
+      "id": "walk",
+      "name": "Пешком",
+      "fare": 0,
+      "departure_delay_seconds": 0,
+      "duration_seconds": 300,
+      "image": "transport_walk.png"
+    },
+    {
+      "id": "bus",
+      "name": "Городской автобус",
+      "fare": 800,
+      "departure_delay_seconds": 20,
+      "duration_seconds": 90,
+      "image": "transport_bus.png"
+    },
+    {
+      "id": "train",
+      "name": "Поезд",
+      "fare": 1500,
+      "departure_delay_seconds": 15,
+      "duration_seconds": 60,
+      "image": "transport_train.png"
+    },
+    {
+      "id": "taxi",
+      "name": "Такси",
+      "fare": 3500,
+      "departure_delay_seconds": 0,
+      "duration_seconds": 45,
+      "image": "transport_taxi.png"
+    }
+  ]
+}
